@@ -1,0 +1,15 @@
+[Unit]
+Description=3D Printer File Manager Service
+After=network.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/printer-file-manager
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/usr/bin/python3 printer_file_manager.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target 
