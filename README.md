@@ -1,6 +1,6 @@
 # 3D Printer File Manager
 
-This script automatically manages files from Neptune 4 Pro 3D printers by transferring them to a Raspberry Pi and then to an S3 bucket for archival.
+This script automatically manages files from my Neptune 4 Pro 3D printers by transferring them to a Raspberry Pi and then to an AWS S3 bucket for archival.
 
 ## Features
 
